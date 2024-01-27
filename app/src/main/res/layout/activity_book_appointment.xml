@@ -152,7 +152,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextAppFess" />
 
     <Button
-        android:id="@+id/buttonAppDate"
+        android:id="@+id/buttonCartDatePicker"
         style="?android:spinnerStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/buttonAppTime"
+        android:id="@+id/buttonCartTimePicker"
         style="?android:spinnerStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
