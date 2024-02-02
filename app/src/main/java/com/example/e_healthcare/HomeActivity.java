@@ -44,5 +44,20 @@ import android.widget.Toast;
                 startActivity(new Intent(HomeActivity.this,LabTestActivity.class));
             }
         });
+
+        CardView orderDetails = findViewById(R.id.cardOrderDetails);
+        orderDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this,OrderDetailsActivity.class));
+            }
+        });
+        CardView buyMedicine = findViewById(R.id.cardBuyMedicine);
+      buyMedicine.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              startActivity(new Intent(HomeActivity.this,BuyMedicineActivity.class));
+          }
+      });
     }
 }

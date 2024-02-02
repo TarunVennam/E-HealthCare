@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewAppTitle" />
 
     <EditText
-        android:id="@+id/editTextAppaddress"
+        android:id="@+id/editTextLTBaddress"
         android:layout_width="293dp"
         android:layout_height="48dp"
         android:layout_marginTop="120dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewAppTitle" />
 
     <EditText
-        android:id="@+id/editTextAppContactNumber"
+        android:id="@+id/editTextLTBPinCode"
         android:layout_width="293dp"
         android:layout_height="48dp"
         android:layout_marginTop="30dp"
@@ -82,10 +82,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppaddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLTBaddress" />
 
     <EditText
-        android:id="@+id/editTextAppFess"
+        android:id="@+id/editTextLTBContactNumber"
         android:layout_width="293dp"
         android:layout_height="48dp"
         android:layout_marginTop="100dp"
@@ -103,10 +103,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppaddress" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextLTBaddress" />
 
     <Button
-        android:id="@+id/buttonBookAppointment"
+        android:id="@+id/buttonLTBBooking"
         android:layout_width="297dp"
         android:layout_height="53dp"
         android:background="@drawable/btn_bg"
@@ -138,8 +138,8 @@
         android:layout_marginTop="16dp"
         android:text="Select Time"
         android:textColor="@color/YellowLight"
-        app:layout_constraintEnd_toEndOf="@+id/editTextAppFess"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppFess" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextLTBContactNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLTBContactNumber" />
 
     <TextView
         android:id="@+id/textView4"
@@ -148,8 +148,8 @@
         android:layout_marginTop="16dp"
         android:text="Select Date"
         android:textColor="@color/YellowLight"
-        app:layout_constraintStart_toStartOf="@+id/editTextAppFess"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppFess" />
+        app:layout_constraintStart_toStartOf="@+id/editTextLTBContactNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLTBContactNumber" />
 
     <Button
         android:id="@+id/buttonCartDatePicker"

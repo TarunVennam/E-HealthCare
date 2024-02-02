@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDDTitle"/>
 
     <Button
-        android:id="@+id/buttonCheckout"
+        android:id="@+id/buttonBMBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
