@@ -59,5 +59,14 @@ import android.widget.Toast;
               startActivity(new Intent(HomeActivity.this,BuyMedicineActivity.class));
           }
       });
+
+      CardView Health = findViewById(R.id.cardHealthDoctor);
+
+      Health.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              startActivity(new Intent(HomeActivity.this,HealyhArticlesActivity.class));
+          }
+      });
     }
 }
